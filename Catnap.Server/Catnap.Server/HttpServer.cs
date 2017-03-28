@@ -23,15 +23,16 @@ namespace Catnap.Server
 
         private List<String> AcceptedVerbs = new List<String> { HttpMethod.Get.Method, HttpMethod.Post.Method,
                                                                 HttpMethod.Delete.Method, HttpMethod.Put.Method };
-
+#pragma warning disable 4014
         public HttpServer(int serverPort = 1337)
         {
             listener = new StreamSocketListener();
             port = serverPort;
             listener.ConnectionReceived += (s, e) => ThreadPool.RunAsync((w) => ProcessRequestAsync(e.Socket));
         }
+#pragma warning restore
 
-        public async void StartServer()
+        public async Task StartServer()
         {
             await listener.BindServiceNameAsync(port.ToString());
         }
