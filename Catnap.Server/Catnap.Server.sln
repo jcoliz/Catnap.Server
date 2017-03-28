@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catnap.Server", ".\Catnap.Server\Catnap.Server.csproj", "{1ED5F504-DBE7-45FE-A968-F3F71B26B67E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catnap.Server", "Catnap.Server\Catnap.Server.csproj", "{1ED5F504-DBE7-45FE-A968-F3F71B26B67E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catnap.Server.Tests", ".\Catnap.Server.Tests\Catnap.Server.Tests.csproj", "{4E4B10D5-66A7-4EA9-9D98-637C653379AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catnap.Server.Tests", "Catnap.Server.Tests\Catnap.Server.Tests.csproj", "{4E4B10D5-66A7-4EA9-9D98-637C653379AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catnap.Sample", "Catnap.Sample\Catnap.Sample.csproj", "{FE659F18-97BF-4090-B967-48928CA2D377}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,26 @@ Global
 		{4E4B10D5-66A7-4EA9-9D98-637C653379AB}.Release|x86.ActiveCfg = Release|x86
 		{4E4B10D5-66A7-4EA9-9D98-637C653379AB}.Release|x86.Build.0 = Release|x86
 		{4E4B10D5-66A7-4EA9-9D98-637C653379AB}.Release|x86.Deploy.0 = Release|x86
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Debug|ARM.Build.0 = Debug|ARM
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Debug|ARM.Deploy.0 = Debug|ARM
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Debug|x64.ActiveCfg = Debug|x64
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Debug|x64.Build.0 = Debug|x64
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Debug|x64.Deploy.0 = Debug|x64
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Debug|x86.ActiveCfg = Debug|x86
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Debug|x86.Build.0 = Debug|x86
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Debug|x86.Deploy.0 = Debug|x86
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Release|Any CPU.ActiveCfg = Release|x86
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Release|ARM.ActiveCfg = Release|ARM
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Release|ARM.Build.0 = Release|ARM
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Release|ARM.Deploy.0 = Release|ARM
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Release|x64.ActiveCfg = Release|x64
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Release|x64.Build.0 = Release|x64
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Release|x64.Deploy.0 = Release|x64
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Release|x86.ActiveCfg = Release|x86
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Release|x86.Build.0 = Release|x86
+		{FE659F18-97BF-4090-B967-48928CA2D377}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
