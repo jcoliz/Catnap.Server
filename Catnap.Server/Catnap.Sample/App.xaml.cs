@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Catnap.Server;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -7,6 +9,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System.Threading;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,6 +25,18 @@ namespace Catnap.Sample
     /// </summary>
     sealed partial class App : Application
     {
+        /// <summary>
+        /// Log of connections and errors we can inspect from the XAML UI window
+        /// </summary>
+        static public ObservableCollection<string> Log = new ObservableCollection<string>();
+
+        /// <summary>
+        /// Task running our HTTPD server
+        /// </summary>
+        private static IAsyncAction ServerTask;
+
+        private HttpServer httpServer;
+
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -45,6 +60,30 @@ namespace Catnap.Sample
                 this.DebugSettings.EnableFrameRateCounter = true;
             }
 #endif
+            try
+            {
+                httpServer = new HttpServer(22112);
+                httpServer.restHandler.RegisterController(new Controllers.StatusController());
+
+                ServerTask =
+                    ThreadPool.RunAsync(async (w) =>
+                    {
+                        try
+                        {
+                            await httpServer.StartServer();
+                            Log.Add("ThreadPool.RunAsync: Server started.");
+                        }
+                        catch (Exception ex)
+                        {
+                            Log.Add("ThreadPool.RunAsync: " + ex.GetType().Name + " " + ex.Message);
+                        }
+                    });
+            }
+            catch (Exception ex)
+            {
+                Log.Add("OnLaunched: " + ex.GetType().Name + " " + ex.Message);
+            }
+
             Frame rootFrame = Window.Current.Content as Frame;
 
             // Do not repeat app initialization when the Window already has content,
