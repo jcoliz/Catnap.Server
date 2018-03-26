@@ -239,7 +239,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -374,7 +374,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/10.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -2639,7 +2639,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -2679,7 +2679,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.6"
+          "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.8"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -2776,7 +2776,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/10.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -3146,7 +3146,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -5130,7 +5130,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -5170,7 +5170,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.6"
+          "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.8"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -5267,7 +5267,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/10.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -5682,7 +5682,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -7658,7 +7658,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -7698,7 +7698,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.6"
+          "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.8"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -7795,7 +7795,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/10.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -8165,7 +8165,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -10158,7 +10158,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -10198,7 +10198,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.6"
+          "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.8"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -10295,7 +10295,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/10.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -10710,7 +10710,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -12692,7 +12692,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -12732,7 +12732,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.6"
+          "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.8"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -12829,7 +12829,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/10.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -13199,7 +13199,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -15192,7 +15192,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -15232,7 +15232,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.6"
+          "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.0.8"
         },
         "compile": {
           "ref/netcore50/_._": {}
@@ -15329,7 +15329,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/10.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -15744,7 +15744,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
+      "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -19832,15 +19832,15 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
-      "sha512": "T758N2M9bvyDA/9KeguVHOiUdhmAlCsmihVgKKwmf4MhnSybB8AsjwgmrCemqQVq7a6G7wffW7OkT0pSM2kNzQ==",
+    "Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
+      "sha512": "zGyKY3y4bLAFJPIaUUl+JBysmo++bRHT7zB93dmUJNs8U1Gy1D95grF1fPydr5ipPveE3PblYpQio98LQZR9lg==",
       "type": "package",
-      "path": "microsoft.netcore.universalwindowsplatform/6.0.6",
+      "path": "microsoft.netcore.universalwindowsplatform/6.0.8",
       "files": [
         "LICENSE.TXT",
-        "Microsoft.NETCore.UniversalWindowsPlatform.6.0.6.nupkg.sha512",
-        "Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.netcore.universalwindowsplatform.6.0.8.nupkg.sha512",
+        "microsoft.netcore.universalwindowsplatform.nuspec",
         "ref/netcore50/_._",
         "ref/uap10.0.15138/Microsoft.CSharp.dll",
         "ref/uap10.0.15138/Microsoft.CSharp.xml",
@@ -20221,10 +20221,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/10.0.3": {
-      "sha512": "wBM7i7i3U2WX0ecor4zdVGvgrwFUjuigBoHKiL+nH39fCOpCPjBY3RDqJM32edvdyTAVdjzlccHsg41+/+zpSA==",
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
-      "path": "newtonsoft.json/10.0.3",
+      "path": "newtonsoft.json/11.0.2",
       "files": [
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -20239,13 +20239,14 @@
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.10.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "tools/install.ps1"
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "runtime.any.System.Collections/4.3.0": {
@@ -21151,16 +21152,16 @@
         "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll"
       ]
     },
-    "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
-      "sha512": "Q4qwkiwdajYNEhVLDM7nFJDP7IMdrKpHbwI1oiJOL3d6iTV422JFfo8kbyYh8k8oOTfKfrHv/UkcIRPk9FjTbg==",
+    "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
+      "sha512": "mCcoolv8UTrTcmRktwjlPk4N+kjcoJDFEI6cH/kT72zv31Mf5HH7/H99q6lNwSF1dXZAeZbzBXJcDOKFMJoKTw==",
       "type": "package",
-      "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.0.6",
+      "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.0.8",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform.6.0.6.nupkg.sha512",
-        "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.0.8.nupkg.sha512",
+        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -21340,16 +21341,16 @@
         "runtimes/win10-arm-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
-      "sha512": "6y4QrQ+l0Oo6K06hWwVS+uNSLFE+tbBCuUBIaN9c3wB0DLWjn2A7rPKjBqoPBJoNK/NdeGPqR0AOXOKb+taauQ==",
+    "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
+      "sha512": "tbmLG9GnSm0LWKkzvzq6Ppw85Lt4EE+aRDSGoYrbbiPTkzK9fzcPOv5YqzL86WKzxWi9E9pZvVytM1uvd3bYXg==",
       "type": "package",
-      "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.0.6",
+      "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.0.8",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform.6.0.6.nupkg.sha512",
-        "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.0.8.nupkg.sha512",
+        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -21516,16 +21517,16 @@
         "runtimes/win10-arm/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
-      "sha512": "2mHmIyGr7MdGDisXckIUdJW1DbdHqFRb1P/d1XCOvohrF4mZEU2vr6f3m8JrcI4p5JqbxQBJVAS5LCNq0+FSww==",
+    "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
+      "sha512": "QhGAy+4NIyxehEg0t0Ps+TvLDj9EHZxwqK+St3q4ggMhGCKXsv7B1g1i9OjC3GGLWW1ShEaSGJMTXf05cDO8Cg==",
       "type": "package",
-      "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.0.6",
+      "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.0.8",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform.6.0.6.nupkg.sha512",
-        "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.0.8.nupkg.sha512",
+        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -21705,16 +21706,16 @@
         "runtimes/win10-x64-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
-      "sha512": "KJ7TjMExpj9+k30/Zed+spk38SkMtdRyckzSKj0040WMMnnXStsU1iAATDD0h4rcTbiMdACaBlIHl3i7p98C7Q==",
+    "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
+      "sha512": "gDKOajerneiwUinQpoVy0dEzX4QRB/oWO37vmfwTac4bSkAsrfdhA5gEeMR4y2JN0OHABLP8zjm1bOiHp4XnFQ==",
       "type": "package",
-      "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.0.6",
+      "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.0.8",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform.6.0.6.nupkg.sha512",
-        "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.0.8.nupkg.sha512",
+        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -21881,16 +21882,16 @@
         "runtimes/win10-x64/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
-      "sha512": "ULbHfUEHeo41/DBR0O9Ps57mzYApjlOZZlOJOUjc6kDHR0TLLDU0lv5eXl88M2ouhCz0OlA4Nw1Hk3w4wNGRBQ==",
+    "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
+      "sha512": "qlJZm6eLTkgsb4TjIlkeCU2DkEAtJw1l0X/YzsMwTmx5yz63gSc1UBp45IrPu699kG0AY3TuUJ6fXeWk9x9iIg==",
       "type": "package",
-      "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.0.6",
+      "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.0.8",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform.6.0.6.nupkg.sha512",
-        "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.0.8.nupkg.sha512",
+        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -22070,16 +22071,16 @@
         "runtimes/win10-x86-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.0.6": {
-      "sha512": "0KoE35RdKGERCqE6LgqJu/kmZy5YS3fttRvcfYt/FhPgzG9/ZbVZ5NfhBuXIAus1eCFQ40xQ2FifgxLhdotXLQ==",
+    "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.0.8": {
+      "sha512": "CHjI9Nsqvw/8nOqiCJOnXr8HT/Fpo44Ir2sUqANdH9jnxGs4u7RTcZSG1dIRyJrOvd0nHLklAVfbwu8SIkXPWg==",
       "type": "package",
-      "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.0.6",
+      "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.0.8",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform.6.0.6.nupkg.sha512",
-        "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.0.8.nupkg.sha512",
+        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -27433,8 +27434,8 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.6",
-      "Newtonsoft.Json >= 10.0.3"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.8",
+      "Newtonsoft.Json >= 11.0.2"
     ],
     "UAP,Version=v10.0.10240": []
   },
@@ -27444,12 +27445,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\jcoliz.DESKTOP-KF0ELM5\\Source\\Repos\\Catnap.Server\\Catnap.Server\\Catnap.Server\\Catnap.Server.csproj",
+      "projectUniqueName": "d:\\home\\Source\\Repos\\GenController\\Catnap.Server\\Catnap.Server\\Catnap.Server\\Catnap.Server.csproj",
       "projectName": "Catnap.Server",
-      "projectPath": "C:\\Users\\jcoliz.DESKTOP-KF0ELM5\\Source\\Repos\\Catnap.Server\\Catnap.Server\\Catnap.Server\\Catnap.Server.csproj",
-      "projectJsonPath": "C:\\Users\\jcoliz.DESKTOP-KF0ELM5\\Source\\Repos\\Catnap.Server\\Catnap.Server\\Catnap.Server\\project.json",
+      "projectPath": "d:\\home\\Source\\Repos\\GenController\\Catnap.Server\\Catnap.Server\\Catnap.Server\\Catnap.Server.csproj",
+      "projectJsonPath": "d:\\home\\Source\\Repos\\GenController\\Catnap.Server\\Catnap.Server\\Catnap.Server\\project.json",
       "packagesPath": "C:\\Users\\jcoliz.DESKTOP-KF0ELM5\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jcoliz.DESKTOP-KF0ELM5\\Source\\Repos\\Catnap.Server\\Catnap.Server\\Catnap.Server\\obj\\",
+      "outputPath": "d:\\home\\Source\\Repos\\GenController\\Catnap.Server\\Catnap.Server\\Catnap.Server\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
@@ -27461,12 +27462,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\jcoliz.DESKTOP-KF0ELM5\\Desktop": {},
         "https://api.nuget.org/v3/index.json": {}
       }
     },
     "dependencies": {
-      "Microsoft.NETCore.UniversalWindowsPlatform": "[6.0.6, )",
-      "Newtonsoft.Json": "[10.0.3, )"
+      "Microsoft.NETCore.UniversalWindowsPlatform": "[6.0.8, )",
+      "Newtonsoft.Json": "[11.0.2, )"
     },
     "frameworks": {
       "uap10.0.10240": {}
